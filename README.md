@@ -1,4 +1,10 @@
-Cyclitest:
+#Real-Time Scheduling Evaluation
+Evaluate the real time system runs on Raspberry Pi
+
+
+##How to run
+
+####Cyclitest:
 Need root permission!
 
 1. idle
@@ -14,7 +20,8 @@ netserver
 4. multi-core
 taskset -c 0 ./cyclictest -p98 -m -n -c 0 -h 200 -q -l 50000 > CPU0.txt
 
-WCET:
+
+####WCET:
 Need root permission!
 
 1 Idle system: 
